@@ -26,6 +26,7 @@ This fork contains the compliance audit for the Virtual Coffee Chat Bot (Project
 |---|---|
 | `01_system_brief.md` | System description: what it does, inputs/outputs, who is affected, how it's built |
 | `02_risk_tier_classification.md` | Risk tier classification (Article 50 limited risk) with justification |
+| `02b_identify_obligations.md` | Article 50 obligation checklist: identifies which obligations apply and compliance status (Met/Partial/Gap) |
 | `03_role_map.md` | Role mapping (provider, deployer, vendor) and obligations |
 | `04_gap_analysis_and_remediation.md` | Gap analysis: Article 50 disclosure missing, GDPR privacy notice needed |
 | `05_compliance_memo.md` | One-page compliance memo with key findings and next steps |
