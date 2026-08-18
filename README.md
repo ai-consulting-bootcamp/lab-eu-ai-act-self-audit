@@ -28,8 +28,10 @@ This fork contains the compliance audit for the Virtual Coffee Chat Bot (Project
 | `02_risk_tier_classification.md` | Risk tier classification (Article 50 limited risk) with justification |
 | `02b_identify_obligations.md` | Article 50 obligation checklist: identifies which obligations apply and compliance status (Met/Partial/Gap) |
 | `03_role_map.md` | Role mapping (provider, deployer, vendor) and obligations |
-| `04_gap_analysis_and_remediation.md` | Gap analysis: Article 50 disclosure missing, GDPR privacy notice needed |
+| `04_gap_analysis_and_remediation.md` | Gap analysis: Article 50 disclosure missing, GDPR privacy notice needed. Remediation steps for each. |
 | `05_compliance_memo.md` | One-page compliance memo with key findings and next steps |
+| `06_reinforce.md` | (Optional) Design review: overlooked components and design decisions creating compliance burden |
+| `07_stretch.md` | (Optional) Remediation artifact: Transparency notice for chat UI to close Article 50 disclosure gap |
 
 ### Key Findings
 
