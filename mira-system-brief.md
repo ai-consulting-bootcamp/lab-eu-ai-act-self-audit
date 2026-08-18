@@ -1,0 +1,15 @@
+# MIRA system brief
+
+MIRA is a private, authenticated creative-direction system built to help a user shape a brand world, visual language, and campaign moodboard from personal creative context and generated visual concepts. Based on the actual implementation in the local MIRA source, the system begins with a short brand context input, then guides the user through a structured creative journey. The V4 flow collects basic project intent, visual direction, typography preferences, and creative evidence; it synthesises that material into a Creative DNA record and a campaign plan; and it eventually produces a five-image editorial moodboard.
+
+The local source shows that the system is built around a user journey with stages such as Quick Context, Recognition, Typography Calibration, Creative DNA, Visual Directions, Refinement, and Final Moodboard. In the actual implementation, the user signs in, starts a Brand World journey, and interacts with a bounded AI-assisted creative process. The outputs are not employment decisions, credit decisions, public-benefit decisions, or law-enforcement decisions. Instead, the system produces conceptual creative direction and generated imagery for brand storytelling and visual exploration.
+
+Inputs are mostly creative and optionally personal: project context, audience, mood, style cues, optional private inspiration, and user-chosen design preferences. The MIRA source also contains optional birth-data or personal-image pathways in earlier architecture, but the current V4 and staging documentation explicitly states that the active V4 pipeline is not driven by the birth-data module and that the active private V3 staging is designed with consent-gated, isolated private-image handling. The active system in current staging is a controlled internal environment rather than a public launch.
+
+The system outputs are primarily: a Creative DNA summary, campaign plan, initial and refined visual directions, and a final five-image moodboard. The user can review the direction, select a preferred visual path, and refine it with explicit preserve/avoid instructions before the final set is generated.
+
+The affected parties are the owner/user building the creative brand world and the end user of the generated output; in production, this could include a founder, consultant, or brand client. Human review is present in the actual flow: the user chooses, approves, and refines direction before the final moodboard is generated. This is a meaningful human control point.
+
+The system was built by the MIRA project team and its configured model/image-generation integrations, with a private staging environment and authenticated owner-scoped access. It is not a public-facing AI product by default. A production deployment would require a clear mapping of provider, deployer, and any external image or model provider responsibilities.
+
+This is a generative creative tool, not a consequential decision system. The regulatory relevance therefore sits mainly in transparency and user-facing disclosure rather than in high-risk Annex III obligations.

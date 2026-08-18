@@ -8,6 +8,11 @@ This repository contains everything you need for this lab.
 
 - [`instructions.md`](./instructions.md) — the lab instructions
 - [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+- [`mira-system-brief.md`](./mira-system-brief.md) — summary of the actual MIRA product and its workflow
+- [`mira-risk-assessment.md`](./mira-risk-assessment.md) — first-pass risk classification and Article 5 / Annex III / Article 50 reasoning
+- [`mira-role-map.md`](./mira-role-map.md) — provider, deployer, and vendor mapping
+- [`mira-gap-remediation.md`](./mira-gap-remediation.md) — specific gap analysis and readiness actions
+- [`mira-compliance-memo.md`](./mira-compliance-memo.md) — one-page memo to a Head of Product
 
 ## How to complete this lab
 
