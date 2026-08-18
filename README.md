@@ -21,3 +21,16 @@ This repository contains everything you need for this lab.
 - Keep this repository scoped to this lab only — no unrelated projects or personal files.
 - Use clear, descriptive filenames.
 - Remove secrets, API keys, and tokens before committing.
+
+## Student submission
+
+This submission audits **Intellectus — Social Impact Intelligence**, the Project 3 system built to prepare consultant-reviewed, pre-engagement diagnostics for social-impact organizations.
+
+### File map
+
+- [`intellectus-system-brief.md`](./intellectus-system-brief.md) — plain-language description of the system, its inputs, outputs, affected people, review process, builders, and intended users.
+- [`intellectus-eu-ai-act-assessment.md`](./intellectus-eu-ai-act-assessment.md) — first-pass risk classification, role map, transparency assessment, and gap/remediation plan.
+- [`intellectus-compliance-memo.md`](./intellectus-compliance-memo.md) — one-page memo for the fictional Head of Product.
+- [`intellectus-transparency-notice.md`](./intellectus-transparency-notice.md) — draft end-user transparency notice addressing the most direct remediation need.
+
+The assessment is a course exercise, not legal advice, a conformity assessment, or a certification.
