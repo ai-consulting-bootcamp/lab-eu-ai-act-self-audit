@@ -1,5 +1,11 @@
 # Gap analysis and remediation plan: AI Entrepreneur Coach
 
+## Phase 4: Obligation checklist, skipped on purpose
+
+Phase 4 asks for a checklist of the 11 high-risk obligations, but the lab instructions say to skip that table if the system is not high-risk: "If your system is not high-risk, skip this table and proceed to Phase 5." I classified this system as limited risk under Article 50, not high-risk (see risk-classification.md), so there is no obligation checklist here. This was left out on purpose, not missed.
+
+## Phase 5: Gap analysis and remediation
+
 This system is limited risk, not high-risk, so there is no Phase 4 checklist. Instead, here are the transparency gaps under Article 50, plus one parallel legal issue under GDPR, since the system handles real personal data (CV, personality answers) even though the AI Act itself is not the only law that applies.
 
 I checked the actual code (`app.py`) for these, not just the plan. Right now there is no AI interaction notice, no AI generated content mark, and no privacy notice or data retention logic anywhere in the app.
