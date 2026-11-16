@@ -8,6 +8,7 @@ This repository contains everything you need for this lab.
 
 - [`instructions.md`](./instructions.md) — the lab instructions
 - [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+- [`ai-search-visibility-agent-eu-ai-act-audit-barsha.md`](./ai-search-visibility-agent-eu-ai-act-audit-barsha.md) — my EU AI Act audit of Project 3 (AI Search Visibility Agent): system brief, risk tier, role map, gap analysis and remediation, compliance memo
 
 ## How to complete this lab
 
