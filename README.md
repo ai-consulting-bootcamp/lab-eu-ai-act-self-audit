@@ -21,3 +21,7 @@ This repository contains everything you need for this lab.
 - Keep this repository scoped to this lab only — no unrelated projects or personal files.
 - Use clear, descriptive filenames.
 - Remove secrets, API keys, and tokens before committing.
+
+## CompanyScope submission
+
+Start with [lab_proof.md](lab_proof.md) for the audit, workflow and reproducible run evidence.

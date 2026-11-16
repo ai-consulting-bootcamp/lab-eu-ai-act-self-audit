@@ -1,0 +1,28 @@
+{
+  "evidence": {
+    "company": {"name":"Audit Fixture GmbH","legal_form":"gmbh","register":{"register_type":"HRB","register_number":"1","register_court":"Berlin"},"address":{},"purpose":"Synthetic evidence replay.","status":"active"},
+    "sources": [
+      {"id":"REGISTRY-1","kind":"registry","source_type":"official_registry","title":"Fixture registry","url":"https://example.invalid/register","retrieved_at":"2026-11-16T12:00:00Z"},
+      {"id":"WEB-1","kind":"web_lead","source_type":"public_web","title":"Fixture website","url":"https://example.invalid/about","retrieved_at":"2026-11-16T12:00:00Z","content":"The fixture company makes ceramic tiles in Berlin."}
+    ],
+    "rag_context": [],
+    "tavily_result_count": 1,
+    "tavily_http_status": 200,
+    "tavily_accepted_count": 1,
+    "tavily_rejected_reasons": [],
+    "search_query": "Audit Fixture GmbH"
+  },
+  "report": {
+    "executive_summary": [],
+    "business_model_analysis": [],
+    "public_findings": [{"source_id":"WEB-1","finding":"The fixture company makes ceramic tiles in Berlin.","significance":"Describes its products.","finding_type":"public_development"}],
+    "analytical_observations": [],
+    "information_gaps": [],
+    "recommended_actions": [],
+    "business_activity_source_ids": ["REGISTRY-1"],
+    "public_research_source_ids": ["WEB-1"],
+    "development_source_ids": [],
+    "uncertainties": [],
+    "follow_ups": []
+  }
+}
