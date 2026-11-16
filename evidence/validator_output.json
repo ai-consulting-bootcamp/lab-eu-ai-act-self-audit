@@ -1,0 +1,27 @@
+{
+  "valid_source": {
+    "ok": true,
+    "validation": {
+      "source_ids_valid": true,
+      "cited_claims_have_source_ids": true,
+      "validated_cited_claim_count": 1,
+      "semantic_entailment": "not_automatically_verified"
+    },
+    "report_markdown": "# Corporate Research Briefing — Audit Fixture GmbH\n\n## Executive Summary\n\nNo evidence-backed summary claims were returned.\n\n## Company Profile\n\n- Legal name: Audit Fixture GmbH [REGISTRY-1]\n- Legal form: gmbh [REGISTRY-1]\n- Register identifier: HRB 1 [REGISTRY-1]\n- Register court: Berlin [REGISTRY-1]\n- Registered address: Not returned [REGISTRY-1]\n- Register status: active [REGISTRY-1]\n- Registered business purpose: Synthetic evidence replay. [REGISTRY-1]\n\n## Business Model and Market Position\n\nAvailable evidence does not support a detailed business-model assessment.\n\n## Public Findings and Developments\n\n- The fixture company makes ceramic tiles in Berlin. Significance: Describes its products. [WEB-1]\n\n## Analytical Observations\n\nThe available evidence is too limited for a supported analytical observation.\n\n## Information Gaps\n\nNo specific information gaps were returned.\n\n## Recommended Research Actions\n\nNo follow-up action is recommended from the available evidence.\n\n## Sources and Limitations\n\n- **REGISTRY-1 — Fixture registry** — <https://example.invalid/register>; retrieved 2026-11-16T12:00:00Z; publication date not reported; official\\_registry, confidence: not rated.\n- **WEB-1 — Fixture website** — <https://example.invalid/about>; retrieved 2026-11-16T12:00:00Z; publication date not reported; public\\_web, confidence: not rated.\n\nPublic web material is an unverified discovery lead. Registry data is provider-reported. Citation identifiers and source types are validated automatically; semantic support of each sentence is not mechanically proven and requires professional review. Search coverage is limited; absence of a result does not establish absence of a fact or event. This briefing is not a legal opinion, audit, sanctions clearance, or solvency assessment.\n\n## Run Metadata\n\nn8n execution: #offline-audit; model: offline-fixture; OpenAI response: completed; source-ID validation: passed.\n"
+  },
+  "wrong_source_type": {
+    "ok": false,
+    "error_code": "public_finding_source_invalid",
+    "failed_field": "public_findings[0].source_id"
+  },
+  "non_supporting_source": {
+    "ok": true,
+    "validation": {
+      "source_ids_valid": true,
+      "cited_claims_have_source_ids": true,
+      "validated_cited_claim_count": 1,
+      "semantic_entailment": "not_automatically_verified"
+    },
+    "report_markdown": "# Corporate Research Briefing — Audit Fixture GmbH\n\n## Executive Summary\n\nNo evidence-backed summary claims were returned.\n\n## Company Profile\n\n- Legal name: Audit Fixture GmbH [REGISTRY-1]\n- Legal form: gmbh [REGISTRY-1]\n- Register identifier: HRB 1 [REGISTRY-1]\n- Register court: Berlin [REGISTRY-1]\n- Registered address: Not returned [REGISTRY-1]\n- Register status: active [REGISTRY-1]\n- Registered business purpose: Synthetic evidence replay. [REGISTRY-1]\n\n## Business Model and Market Position\n\nAvailable evidence does not support a detailed business-model assessment.\n\n## Public Findings and Developments\n\n- This fixture opened a branch on Mars. Significance: Describes its products. [WEB-1]\n\n## Analytical Observations\n\nThe available evidence is too limited for a supported analytical observation.\n\n## Information Gaps\n\nNo specific information gaps were returned.\n\n## Recommended Research Actions\n\nNo follow-up action is recommended from the available evidence.\n\n## Sources and Limitations\n\n- **REGISTRY-1 — Fixture registry** — <https://example.invalid/register>; retrieved 2026-11-16T12:00:00Z; publication date not reported; official\\_registry, confidence: not rated.\n- **WEB-1 — Fixture website** — <https://example.invalid/about>; retrieved 2026-11-16T12:00:00Z; publication date not reported; public\\_web, confidence: not rated.\n\nPublic web material is an unverified discovery lead. Registry data is provider-reported. Citation identifiers and source types are validated automatically; semantic support of each sentence is not mechanically proven and requires professional review. Search coverage is limited; absence of a result does not establish absence of a fact or event. This briefing is not a legal opinion, audit, sanctions clearance, or solvency assessment.\n\n## Run Metadata\n\nn8n execution: #offline-audit; model: offline-fixture; OpenAI response: completed; source-ID validation: passed.\n"
+  }
+}
