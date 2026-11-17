@@ -22,6 +22,8 @@ The job seeker whose CV or profile is submitted is the person most directly affe
 
 Julia Antunes built the workflow by configuring n8n and integrating OpenAI and online research sources. In production, the intended users would be job seekers preparing for their own interviews. No employer or hiring team is intended to use the report to assess or select candidates.
 
+This work is part of a lab project in an Ironhack bootcamp, completed in November 2026.
+
 ### Data handling
 
 The workflow processes the submitted materials, research results, and generated report. n8n execution history may retain sensitive data, and invalid submissions may also be logged to Notion if that integration is configured. Generated reports are not stored in persistent project storage.
