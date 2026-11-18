@@ -8,6 +8,8 @@ This repository contains everything you need for this lab.
 
 - [`instructions.md`](./instructions.md) — the lab instructions
 - [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+- [`lab_proof.md`](./lab_proof.md) — completed EU AI Act audit proof
+- [`project-3-brief.md`](./project-3-brief.md) — source system brief for the Week 5 project
 
 ## How to complete this lab
 
