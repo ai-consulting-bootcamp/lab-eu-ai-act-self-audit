@@ -1,23 +1,12 @@
-# Audit your own project
+# EU AI Act self-audit – RCSA Evidence & Challenge Agent (Ironhack Week 7)
 
-**Track:** Module 7 — EU AI Act · **When:** Week 7, Day 2 · **Status:** Required
+Self-audit of my Project 3. **Start here → [`lab_proof.md`](lab_proof.md)**
 
-This repository contains everything you need for this lab.
-
-## Files
-
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
-
-## How to complete this lab
-
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
-
-## Submission hygiene
-
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+| File | Content |
+|---|---|
+| `lab_proof.md` | Entry point |
+| `system_brief_rcsa_evidence_challenge_agent.md` / `.pdf` | Phase 1 system brief |
+| `self_audit_rcsa_eu_ai_act.md` | Phases 2–5 + reinforce |
+| `03_compliance_memo_head_of_product.md` | Phase 6 memo |
+| `04_stretch_human_oversight_procedure.md` | Stretch artifact |
+| `eu_ai_act_compliance_checker_result.png` | EC Compliance Checker screenshot |
