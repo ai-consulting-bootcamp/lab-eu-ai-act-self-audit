@@ -2,36 +2,35 @@
 
 **To:** Head of Product, Kleinanzeigen *(fictional recipient for a course exercise)*
 **From:** Ayhan Demir, AI consultant
-**Date:** 17 November 2026
+**Date:** 19 November 2026
 **Subject:** EU AI Act check of "Fix My Process" before a pilot
 
 ## 1. Classification
 
-Fix My Process is a **limited-risk** AI system under the EU AI Act: it is not a banned practice (Article 5) and not high-risk (Annex III point 4, employment), because it recommends tools for work processes and does not judge or manage employees, but it talks to staff and writes text, so the transparency rules of Article 50 apply.
+Fix My Process is a **limited-risk** AI system under the EU AI Act: it is not a banned practice (Article 5) and not high-risk under the employment rules (Annex III point 4), because it recommends tools for work processes and does not monitor, judge or manage employees, but it talks to staff and writes text, so the transparency rules of Article 50 apply.
 
 ## 2. Who is responsible
 
-- **Provider:** whoever builds it and runs it under its own name. Today that is me, as the developer of the prototype. If Kleinanzeigen adopts it and runs it for its own staff, Kleinanzeigen becomes the provider.
+- **Provider:** whoever builds it and runs it under its own name. Today that is me, as developer of the prototype. If Kleinanzeigen adopts it and runs it for its own staff, Kleinanzeigen becomes the provider.
 - **Deployer:** Kleinanzeigen, as the employer whose staff use it.
-- **Suppliers:** OpenAI and Cohere supply the AI models and carry their own duties as model providers. The data and platform services (search, database, Slack, Notion) have no AI Act role, but they process our data.
+- **AI model suppliers:** OpenAI and Cohere carry their own duties as model providers and must give us information about their models. The other services (search, database, Slack, Notion) have no AI Act role.
 
 ## 3. Key findings
 
-1. **Staff must clearly see they are using AI, and stored reports must carry an AI marker.** Today the report itself is labelled as AI-generated, but there is no notice before people start, and the stored records carry no marker.
-2. **The employee data needs a privacy and works council framework before real use.** Problem descriptions can contain names, case data goes to about ten outside services, some based outside the EU, and there is no privacy notice or deletion rule yet. Because it records department and feedback, the works council will likely see it as a tool that could be used to watch staff.
-3. **The "not high-risk" result depends on how we use the data.** If anyone used submissions or feedback to rate individuals or teams, the system could become high-risk under the employment rules, with much heavier obligations from December 2027.
+1. **Staff must be told up front that they are using AI, and stored reports must carry an AI marker.** The report itself is labelled as AI-generated, but there is no notice before people start, and the stored records carry no machine-readable marker. Both duties have applied since August 2026.
+2. **The "not high-risk" result depends on how we use the data.** Each case records the department and the employee's feedback. If anyone used this to monitor or rate individuals or teams, the system would become high-risk under the employment rules, with much heavier duties from December 2027, and Kleinanzeigen would carry them as provider.
+3. **AI literacy is not yet covered.** Employees, the AI enablement team and the AI Governance Board need short, recorded guidance on what the system can and cannot do, and in particular that the green, amber or red flag is guidance, not a legal clearance.
 
 ## 4. Recommended next steps, in order
 
-1. **Write down the purpose** in one page: "process and tool improvement, never for evaluating individuals or teams", with a minimum group of 5 for any summary. *(Review: employment lawyer.)*
-2. **Data protection set-up:** privacy notice, legal basis, a 12-month retention period, contracts and transfer checks with each supplier, and automatic removal of personal details before any AI step. *(Review: data protection officer.)*
-3. **Works council:** present the system and agree a short annex before the pilot. *(Review: works council.)*
-4. **Product fixes,** about one sprint: an AI notice at the start, an AI-generated marker on every stored report, amber cases sent to the Board for a decision, and a "guidance, not legal advice" line on the compliance flag.
-5. **Short training** for users, the AI enablement team and the Board.
-6. **Pilot with one or two teams,** then repeat this check before adding any report that summarises by department.
+1. **Write down the purpose** in one page: "process and tool improvement, never for monitoring or evaluating individuals or teams", with a minimum group of 5 for any department figures. *(Review: AI Act specialist.)*
+2. **Product fixes,** about one sprint: an AI notice at the start, a machine-readable AI marker on every stored report and summary, amber cases sent to the Board for a decision, and a "guidance, not legal advice" line on the flag. *(Review of the marking method: AI Act specialist.)*
+3. **Model documentation:** keep OpenAI's and Cohere's model information and the model versions on file.
+4. **Short training** for users, the AI enablement team, the Board and the workflow owner, with a record of who completed it.
+5. **Pilot with one or two teams,** then repeat this check before adding any report that summarises by department.
 
-No external certification body is needed for a limited-risk system.
+No conformity assessment or external certification is needed for a limited-risk system. Data protection and works council questions are outside this memo and need their own review before real employee data is used.
 
 ## 5. Caveats
 
-This memo is a first-pass assessment for a course project. It is **not a legal opinion, not a conformity assessment and not a certification.** It is based on the system brief, uses fictional internal documents, and applies the law as amended by the Digital Omnibus (in force since 27 July 2026). The classification should be confirmed by a lawyer before rollout, and checked again whenever the purpose, data or users change.
+This memo is a first-pass EU AI Act assessment for a course project. It is **not a legal opinion, not a conformity assessment and not a certification.** It is based on the system brief, uses fictional internal documents, and applies the AI Act as amended by the Digital Omnibus (in force since 27 July 2026). The classification should be confirmed by a lawyer before rollout and checked again whenever the purpose, data or users change.
